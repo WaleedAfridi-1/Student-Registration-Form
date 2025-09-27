@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:#0f172a;
+            color: #e2e8f0
+        }
+        h1{
+            text-align:center;
+            width:50%;
+            background-color:#1e293b;;
+            color:#38bdf8;
+            padding:10px;
+            margin-top:5px;
+            border-radius:45px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+        }
+        h1:hover{
+            background-color:#121b31;
+            color:#22d3ee;
+            cursor:pointer;
+            box-shadow:0px 12px 30px rgba(0,0,0,0.8);
+            transform:scale(1.02);
+            transition:0.3s;
+        }
+        table{
+            background-color: #1e293b;
+            color:#38bdf8;
+            display:flex;
+            justify-content:center;
+            width:50%;
+            height:auto;
+            box-shadow:  0px 8px 25px rgba(0,0,0,0.6);
+            border-radius:45px
+        }
+        table:hover{
+            background-color:#121b31;
+            color:#22d3ee;
+            border-radius:50px;
+           box-shadow:0px 12px 30px rgba(0,0,0,0.8);
+            transform:scale(1.02);
+            transition:0.3s;
+        }
+       
+        #buttons{
+            display:flex;
+            justify-content:center;
+            margin-top:10px;
+            padding:10px;
+            gap:30px;
+            color:white;
+            width:100%;
+            text-align:center;
+           
+        }
+        #buttons input{
+            background-color:#1e293b;
+            color:#38bdf8;
+            width:100px;
+            height:40px;
+            border-radius:20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight:bold;
+            font-size:15px;
+            border:none;
+            box-shadow:0px 4px 15px rgba(0,0,0,0.5)
+        }
+        #buttons input:hover{
+            background-color:#121b31;
+            color: #22d3ee;
+            cursor:pointer;
+            box-shadow: 0px 12px 30px rgba(0,0,0,0.8);
+            transform:scale(1.09);
+            transition:0.5s;
+        }
+        .cell{
+            width:70%;
+            padding:10px;
+            background-color:white;
+            border-radius:20px;
+            border:1px solid grey;
+            
+        }
+        .chars{
+            font-size:20px;
+            
+            font-weight:bold;
+        }
+        .chars:hover{
+            color:white;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <h1 >Student Registration Form</h1></center>
+    
+    <form>
+        <table cellpadding="10" cellspacing="10" align="center">
+            <!-- Name Row -->
+            <tr>
+                <td class="chars" >First Name</td>
+                <td> <input type="text" class="cell"  required></td>
+            </tr>
+            <tr>
+                <td class="chars">Last Name</td>
+                <td><input type="text"  class="cell" required></td>
+            </tr>
+
+            <tr>
+                <td class="chars">Father Name</td>
+                <td><input type="text"  class="cell" required></td>
+            </tr>
+
+            <!-- Phone Number Row -->
+             <tr>
+                <td class="chars">Phone Number</td>
+                <td><input type="tel" class="cell" required pattern="[0-9]{11}" maxlength="11" minlength="11"></td>
+             </tr>
+
+            <!-- Email Row -->
+             <tr>
+                <td class="chars">Email </td>
+                <td><input type="email" class="cell" required></td>
+             </tr>
+
+             <!-- Password Row -->
+              <tr>
+                <td class="chars">Password </td>
+                <td><input type="password"   class="cell" required></td>
+              </tr>
+
+              <!-- Gender Row -->
+               <tr>
+                <td rowspan="2" class="chars">Gender</td>
+                <td><input type="radio" name="gender">Male</td>
+               </tr>
+               <tr>
+                <td><input type="radio" name="gender">Female</td>
+               </tr>
+
+               <!-- City Row -->
+                <tr>
+                    <td class="chars">City </td>
+                    <td>
+                        <select placeholder="City" required style="width:45%;border-radius:20px;padding:10px;margin:5px">
+                            <option>Karachi</option>
+                            <option>Lahore</option>
+                            <option>Islamabad</option>
+                            <option>Peshawar</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Course Row -->
+                <tr>
+                    <td class="chars">Course </td>
+                    <td>
+                    <select reqiured style="width:50%;padding:10px;border-radius:20px">
+                        <option>Python</option>
+                        <option>Java Script</option>
+                        <option>Java</option>
+                        <option>Graphic Designing</option>
+                        <option>Data Science</option>
+                        <option>Web Development</option>
+                        <option>Database</option>
+                        <option>MobileApp Development</option>
+                    </select></td>
+                </tr>
+                <!-- Address Row -->
+                <tr>
+                    <td class="chars">Address</td>
+                    <td><textarea rows="5" cols="40" required class="cell" placeholder="Enter Your Home Address:"></textarea></td>
+                </tr>
+        </table>
+    
+
+        <!-- Submit Button -->
+        <div id="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
