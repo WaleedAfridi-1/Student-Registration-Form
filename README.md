@@ -73,7 +73,7 @@ student-registration-form/
    ```
 3. Open `index.html` in your browser (double-click or via Live Server).  
 4. To view the live version, visit:  
-   https://68d7aa5e733a231cba4d06c1--gorgeous-yeot-035647.netlify.app/
+   https://gorgeous-yeot-035647.netlify.app/
 
 ---
 
