@@ -13,8 +13,7 @@ A sleek and modern **Student Registration Form** built using pure **HTML & CSS**
 
 ## Table of Contents
 
-- [Features](#features)  
-- [Preview](#preview)  
+- [Features](#features)    
 - [Technologies Used](#technologies-used)  
 - [Folder Structure](#folder-structure)  
 - [Usage](#usage)  
@@ -55,10 +54,7 @@ A sleek and modern **Student Registration Form** built using pure **HTML & CSS**
 student-registration-form/
 ├── index.html
 ├── README.md
-└── assets/
-    ├── header.png
-    ├── form.png
-    └── hover.png
+
 ```
 
 
