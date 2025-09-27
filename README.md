@@ -61,7 +61,7 @@ student-registration-form/
     └── hover.png
 ```
 
-*(If CSS is inline in your HTML, you may not have a separate `styles.css` — that’s fine.)*
+
 
 ---
 
