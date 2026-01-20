@@ -4,7 +4,7 @@ A Student Registration Form built with pure HTML and CSS. This project includes 
 
 # Student Registration Form
 
-A sleek and modern **Student Registration Form** built using pure **HTML & CSS**. This project provides a stylish UI, form validation, and responsive layout — no JavaScript frameworks or external libraries used.
+A sleek and modern **Student Registration Form** built using pure **HTML & CSS**. This project provides a stylish UI, form validation,  no JavaScript frameworks or external libraries used.
 
 🚀 **Live Demo**:  
 [View it on Netlify](https://gorgeous-yeot-035647.netlify.app/)
@@ -33,7 +33,6 @@ A sleek and modern **Student Registration Form** built using pure **HTML & CSS**
   - Phone number: **exactly 11 digits**, only numeric  
   - Email: proper email format  
 - Stylish buttons, inputs, and table interactions  
-- Fully responsive (works on desktop & mobile)  
 - Pure **HTML + CSS**, no JS frameworks or external CSS libs  
 
 ---
